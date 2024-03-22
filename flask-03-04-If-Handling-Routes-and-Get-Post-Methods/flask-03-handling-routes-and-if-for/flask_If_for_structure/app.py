@@ -17,7 +17,7 @@ def head():
 def header():
     names =["tom", "osvaldo", "guile", "tommy"]
     # numbers = range (1,11)
-    return render_template("body.html", object = names)
+    return render_template("body.html", object = numbers)
 
 
 # run this app in debug mode on your local.
